@@ -90,7 +90,7 @@ img.Moto {
 
 h1.Dos {
     font-size: 3rem;
-    height: 4rem;
+    height: 9rem;
     margin: 3rem;
     align-items: center;
     background-color: #D9D9D9;
@@ -101,22 +101,22 @@ h1.Dos {
 
 p.DOS {
     margin: 3rem;
-    font-size: 1.6rem;
-    height: 8rem;
+    font-size: 1.5rem;
+    height: 10rem;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .servicios-content {
     display: grid;
-    height: 28rem;
+    height: 32rem;
     background-color: #D9D9D9;
 }
 
 h1.Tres {
-    padding: 2rem;
+    padding: 1rem;
     height: 2rem;
     margin: 2rem;
     font-size: xx-large;
@@ -127,28 +127,38 @@ h1.Tres {
 
 .boton-motos {
     display: flex;
-    gap: 9rem;
+    gap: 8rem;
     height: 15rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+a {
+    display: contents;
 }
 
 button.btn-moto1 {
-    background-color: #072F3B;
+    background-color: #3698B2;
     color: white;
+    height: 15rem;
 }
 
 button.btn-moto2 {
-    background-color: #072F3B;
+    background-color: #3698B2;
     color: white;
+    height: 15rem;
 }
 
 button.btn-moto3 {
-    background-color: #072F3B;
+    background-color: #3698B2;
     color: white;
+    height: 15rem;
 }
 
 button.btn-moto4 {
-    background-color: #072F3B;
+    background-color: #3698B2;
     color: white;
+    height: 15rem;
 }
 
 /** Mobile First -- 0px --> 566px */
