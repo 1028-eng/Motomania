@@ -1,6 +1,24 @@
-body {
+/** Define variables para la hoja de estilos */
+:root {
+    /** Colors */
+      /** Borde del Card */
+
+    --overall-font-size: 62.5%;
+}
+
+html {
+    /** Reestablece valor de 1rem a base 10, es decir: 1rem = 10px */
+    font-size: var( --overall-font-size );     
+    box-sizing: border-box; 
+}
+
+body.template {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
     font-family: sans-serif;
     margin: 0;
+    font-size: 1.6rem;
 }
 
 .header-content {
