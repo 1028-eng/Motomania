@@ -12,10 +12,6 @@ html {
     box-sizing: border-box; 
 }
 
-.container {
-    padding: 3rem;
-}
-
 body.template {
     display: grid;
     min-height: 100dvh;
@@ -51,10 +47,17 @@ img.Logo {
     font-size: 2.3rem;
 }
 
+ul.menu-principal {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
 a {
     font-weight: 600;
-    padding-right: 10rem;
-    text-decoration: none;
     color: white;
 }
 
