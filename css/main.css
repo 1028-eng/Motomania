@@ -12,6 +12,10 @@ html {
     box-sizing: border-box; 
 }
 
+.container {
+    padding: 3rem;
+}
+
 body.template {
     display: grid;
     min-height: 100dvh;
@@ -54,12 +58,15 @@ a {
     color: white;
 }
 
-    
+.section.section-principal {
+    background-color: #D9D9D9;
+}
+
 .principal-content {
     background-color: #D9D9D9;
     font-size: 2.8rem;
     display: flex;
-    height: 49rem;
+    height: 45rem;
     padding: 2rem;
 }
 
@@ -70,19 +77,19 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 35rem;
+    height: 38rem;
 }
 
 h1.Uno {
     font-size: 5rem;
     height: 17rem;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 p.Uno {
     font-size: 2rem;
     height: 7rem;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .imagen-moto { 
@@ -110,12 +117,14 @@ img.Moto {
 .Nosotros {
     position: relative;
     display: flex;
-    gap: 5rem;
+    gap: 6em;
+    align-items: center;
+    height: 35rem;
 }
 
 h1.Dos {
-    font-size: 3rem;
-    height: 9rem;
+    font-size: 4rem;
+    height: 8rem;
     margin: 3rem;
     align-items: center;
     background-color: #D9D9D9;
@@ -124,26 +133,28 @@ h1.Dos {
     padding: 3rem;
 }
 
-p.DOS {
-    margin: 3rem;
-    font-size: 1.5rem;
-    height: 10rem;
+p.Dos {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    padding: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 2.5rem;
 }
 
-.servicios-content {
-    display: grid;
-    height: 32rem;
+.section.section-servicios {
     background-color: #D9D9D9;
 }
 
+.servicios-content {
+    display: flow-root;
+    height: 45rem;
+    background-color: #D9D9D9;
+    padding: 2rem;
+}
+
 h1.Tres {
-    padding: 1rem;
-    height: 2rem;
-    margin: 2rem;
+    padding: 2rem;
+    height: 5rem;
+    margin: 3rem;
     font-size: xx-large;
     display: flex;
     flex-direction: column;
@@ -152,8 +163,8 @@ h1.Tres {
 
 .boton-motos {
     display: flex;
-    gap: 8rem;
-    height: 15rem;
+    gap: 9rem;
+    height: 25rem;
     padding: 2rem;
     justify-content: center;
 }
@@ -165,25 +176,75 @@ a {
 button.btn-moto1 {
     background-color: #3698B2;
     color: white;
-    height: 15rem;
+    height: 25rem;
+    padding: 2rem;
 }
 
 button.btn-moto2 {
     background-color: #3698B2;
     color: white;
-    height: 15rem;
+    height: 25rem;
+    padding: 2rem;
 }
 
 button.btn-moto3 {
     background-color: #3698B2;
     color: white;
-    height: 15rem;
+    height: 25rem;
 }
 
 button.btn-moto4 {
     background-color: #3698B2;
     color: white;
+    height: 25rem;
+    padding: 2rem;
+}
+
+.final-content {
+    font-size: 2.8rem;
+    display: flex;
+    height: 42rem;
+    padding: 2rem;
+}
+
+.Final {
+    margin: 2rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    padding: 2rem;
+    background-color: #D9D9D9;
+}
+
+p.Cuatro {
+    font-size: 2.4rem;
     height: 15rem;
+    margin: 2rem;
+}
+
+p.Cinco {
+    font-size: 2.4rem;
+    height: 8rem;
+    margin: 2rem;
+}
+
+.imagen-end {
+    display: flex;
+    width: 80%;
+    height: 36rem;
+    margin: 3rem;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: normal;
+}
+
+img.End {
+    margin-inline: inherit;
+    border-radius: 2rem;
+    background-color: #D9D9D9;
 }
 
 /** Mobile First -- 0px --> 566px */
