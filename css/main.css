@@ -168,9 +168,20 @@ h1.Tres {
 .boton-motos {
     display: flex;
     gap: 9rem;
-    height: 25rem;
-    padding: 2rem;
     justify-content: center;
+}
+
+.btn-moto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-moto h2 {
+    font-size: 3.4rem;
+    margin: 0;
 }
 
 a {
