@@ -62,12 +62,9 @@ a {
     color: white;
 }
 
-<<<<<<< HEAD
-=======
 .section.section-principal {
     background-color: #D9D9D9;
 }
->>>>>>> 2acfa3efa98c83c6c9fc7e0db06b9073e1780168
 
 .principal-content {
     background-color: #D9D9D9;
@@ -291,7 +288,6 @@ img.End {
 
 }
 .services-content {
-    border: 1px solid orange;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -304,7 +300,6 @@ img.End {
 }
 
 .card__content {
-    border: 2px solid blue;
     box-sizing: border-box;
     display: flex;
     width: 70%;
@@ -333,7 +328,6 @@ img.End {
 }
 
 .mecanica.mecanica-1 {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: left;
@@ -505,7 +499,7 @@ a.nav-link:hover {
 }
 /** Mobile First -- 0px --> 566px */
 .container {
-    border: 2px dotted blue;
+    
     max-width: 96vw;
     margin: 0 auto;
     padding: 0 .8rem;
