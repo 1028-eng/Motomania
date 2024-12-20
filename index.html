@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <link rel="stylesheet" href="./css/normaiza.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="template">
@@ -21,10 +21,12 @@
             </div>
             <div class="header-content__center">
                 <nav>
-                    <a href="index.html" class="nav-limk">Inicio</a>
-                    <a href="citas.html" class="nav-limk">Agendar cita</a>
-                    <a href="servicios.html" class="nav-limk">Servicios</a>
-                    <a href="#" class="nav-limk">Contacto</a>
+                    <ul class="menu-principal">
+                        <li class="menu-item"><a href="#" class="nav-link">Inicio</a></li>
+                        <li class="menu-item"><a href="#" class="nav-link">Agendar cita</a></li>
+                        <li class="menu-item"><a href="#" class="nav-link">Servicios</a></li>
+                        <li class="menu-item"><a href="#" class="nav-link">Contacto</a></li>
+                    </ul>
                 </nav>
             </div>
             <div class="header-content__right">
@@ -38,8 +40,7 @@
              <div class="principal-content">
                 <div class="info">
                  <h1 class="Uno">Tu mecánico de confianza a un clic de distancia.</h1>
-                 <p class="Uno">La mejor red de talleres mecánicos, brindándote calidad, precios justos y garantía.</p>
-                 
+                 <p class="Uno">Somos la mejor red de talleres mecánicos, brindándote calidad, precios justos y garantía.</p>
                 </div>
                  <div class="imagen-moto">
                     <img class="Moto" src="./images/Moto-1.jpg">
@@ -64,29 +65,21 @@
                  <h1 class="Tres">TODOS LOS SERVICIOS QUE TU MOTO NECESITA</h1>
                 </div>
                 <div class="boton-motos">
-                <a href="">
-                    <button class="btn-moto1">
+                <a href="#" class="btn-moto btn-moto1">
                       <h2>Mecanica Basica.</h2>
                         <img class="Imagen-1" src="./images/Imagen-moto1.png"alt="Mecanica Basica">
-                    </button>
                 </a>
-                <a href="">
-                    <button class="btn-moto2">
+                <a href="#" class="btn-moto btn-moto2">
                       <h2>Estetica Vehicular.</h2>
                         <img class="Imagen-2" src="./images/Imagen-moto2.png"alt="Estetica Vehicular">
-                    </button>
                 </a>
-                <a href="">
-                    <button class="btn-moto3">
+                <a href="#" class="btn-moto btn-moto3">
                       <h2>Mecanica Especialiada.</h2>
                         <img class="Imagen-3" src="./images/Imagen-moto3.png"alt="Mecanica Especialiada">
-                    </button>
                 </a>
-                <a href="">
-                    <button class="btn-moto4">
+                <a href="#" class="btn-moto btn-moto4">
                       <h2>A Domicilo.</h2>
                         <img class="Imagen-4" src="./images/Imagen-moto4.png"alt="A Domicilo">
-                    </button>
                 </a>
                 </div>
              </div>
@@ -106,8 +99,21 @@
          </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="container container-footer">footer</div>
+    <footer>
+        <div class="arriba">
+            <img src="./images/Logo Blanco.jpg.jpeg" alt="logo del footer" class="Logo_footer">
+            <nav class="container-1">
+                <a href="" class="nav-link">Trabaja Con Nosotros</a>
+                <a href="" class="nav-link">PQRS</a>            
+                <a href="" class="nav-link">Contacto</a>
+                <a href="" class="nav-link">Redes Sociales</a>
+            </nav>
+        </div>
+        <div class="abajo">
+            <p>Copyright &copy;</p>
+            <a href="" class="politicas">Politicas y Garantias</a>
+
+        </div>
     </footer>
 </body>
 </html>
