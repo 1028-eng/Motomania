@@ -21,11 +21,14 @@ body.template {
     font-size: 1.6rem;
 }
 
+header.header {
+    background: linear-gradient(#1382A1 40%, #072F3B 100%);
+}
+
 .container.header-content {
     padding: 1rem;
     height: auto;
     display: flex;
-    background: linear-gradient(#1382A1 40%, #072F3B 100%);
     align-items: center;
     width: auto;
 }
@@ -227,7 +230,7 @@ button.btn-moto4 {
 .final-content {
     font-size: 2.8rem;
     display: flex;
-    height: 48rem;
+    height: 55rem;
     padding: 1rem;
 }
 
@@ -298,7 +301,6 @@ img.End {
 }
 
 .card__content {
-    border: 2px solid blue;
     box-sizing: border-box;
     display: flex;
     width: 70%;
@@ -499,7 +501,6 @@ a.nav-link:hover {
 }
 /** Mobile First -- 0px --> 566px */
 .container {
-    border: 2px dotted blue;
     max-width: 96vw;
     margin: 0 auto;
     padding: 0 .8rem;
